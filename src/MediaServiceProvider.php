@@ -46,7 +46,9 @@ class MediaServiceProvider extends ServiceProvider
     private function registerTvdb()
     {
         $this->app->singleton('tvdb', function($app) {
-            return new TVDB($app['config']['tvdb.host'], $app['config']['tvdb.key']);
+            $host = config('media.tvdb.host');
+            $api = config('media.tvdb.key');
+            return new TVDB($host, $api);
         });
     }
 
