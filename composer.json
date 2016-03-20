@@ -1,5 +1,5 @@
 {
-  "name": "nick/media-apis",
+  "name": "thunder_nick/media-apis",
   "description": "Laravel Media apis wrapper eg: TVDB, IMDB",
   "require": {
     "guzzlehttp/guzzle": "^6.1"
