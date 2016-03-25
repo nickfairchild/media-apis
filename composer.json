@@ -1,5 +1,5 @@
 {
-  "name": "thunder_nick/media-apis",
+  "name": "nickfairchild/media-apis",
   "description": "Laravel Media apis wrapper eg: TVDB, IMDB",
   "require": {
     "guzzlehttp/guzzle": "^6.1"
@@ -12,7 +12,7 @@
   "authors": [
     {
       "name": "Nick Fairchild",
-      "email": "nick@wearethunderbolt.com"
+      "email": "nick.fairchild@gmail.com"
     }
   ],
   "autoload": {
