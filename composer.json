@@ -14,8 +14,8 @@
     "nesbot/carbon": "^1.21"
   },
   "autoload": {
-    "psr-0": {
-      "Nick\\Media": "src/"
+    "psr-4": {
+      "Nick\\Media\\": "src/"
     }
   },
   "minimum-stability": "stable"
