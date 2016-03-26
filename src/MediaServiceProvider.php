@@ -35,7 +35,7 @@ class MediaServiceProvider extends ServiceProvider
     {
         $this->registerTvdb();
 
-        $this->app->alias('tvdb', 'Media\TVDB\TVDB');
+        $this->app->alias('tvdb', 'Nick\Media\TVDB\TVDB');
     }
 
     /**
@@ -59,6 +59,6 @@ class MediaServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['tvdb', 'Media\TVDB\TVDB'];
+        return ['tvdb', 'Nick\Media\TVDB\TVDB'];
     }
 }

@@ -1,13 +1,6 @@
 {
   "name": "nickfairchild/media-apis",
   "description": "Laravel Media apis wrapper eg: TVDB, IMDB",
-  "require": {
-    "guzzlehttp/guzzle": "^6.1"
-  },
-  "require-dev": {
-    "illuminate/support": "^5.2",
-    "nesbot/carbon": "^1.21"
-  },
   "license": "MIT",
   "authors": [
     {
@@ -15,9 +8,15 @@
       "email": "nick.fairchild@gmail.com"
     }
   ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.1",
+    "illuminate/support": "^5.2",
+    "nesbot/carbon": "^1.21"
+  },
   "autoload": {
     "psr-0": {
       "Nick\\Media": "src/"
     }
-  }
+  },
+  "minimum-stability": "stable"
 }
