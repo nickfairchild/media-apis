@@ -1,5 +1,5 @@
 <?php
-namespace Media\Facades;
+namespace Nick\Media\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

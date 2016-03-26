@@ -1,6 +1,6 @@
 <?php
 
-namespace Media\TVDB;
+namespace Nick\Media\TVDB;
 
 use Carbon\Carbon;
 

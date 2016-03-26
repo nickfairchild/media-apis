@@ -1,8 +1,8 @@
 <?php
-namespace Media;
+namespace Nick\Media;
 
 use Illuminate\Support\ServiceProvider;
-use Media\TVDB\TVDB;
+use Nick\Media\TVDB\TVDB;
 
 class MediaServiceProvider extends ServiceProvider
 {
