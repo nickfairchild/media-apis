@@ -14,7 +14,7 @@ class Image
         $this->id    = $data['id'];
         $this->url   = $data['url'];
         $this->likes = $data['likes'];
-        if ($data['season']) {
+        if (isset($data['season'])) {
             $this->season = $data['season'];
         }
     }
